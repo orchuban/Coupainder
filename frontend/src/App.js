@@ -18,7 +18,7 @@ function App() {
         <div className="navbar-nav mr-auto">
           <li className="nav-item">
             <Link to={"/coupons"} className="nav-link">
-              oupons List
+              Coupons List
             </Link>
           </li>
           <li className="nav-item">
