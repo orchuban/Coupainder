@@ -46,6 +46,8 @@ db.sequelize.sync();
 
 // simple route
 app.get("/", (req, res) => {
+    // Website you wish to allow to connect
+  res.setHeader('Access-Control-Allow-Origin', '*');
   res.json({ message: "Welcome to bezkoder application." });
 });
 
