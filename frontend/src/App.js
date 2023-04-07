@@ -27,7 +27,7 @@ function App() {
             </Link>
           </li>
         </div>
-        <img src={logo1} style={{ maxWidth: "8%" }} />
+        <img alt="icon" src={logo1} style={{ maxWidth: "8%" }} />
 
       </nav>
 
