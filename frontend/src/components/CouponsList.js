@@ -132,7 +132,7 @@ const CouponsList = () => {
             </div>
 
             <Link
-              to={"/coupons" + currentCoupon.id}
+              to={"/coupons/" + currentCoupon.id}
               className="badge badge-warning"
             >
               Edit
